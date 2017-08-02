@@ -1,0 +1,69 @@
+﻿body {
+}
+
+.center {
+    margin: auto;
+    width: 90%;
+    border: 3px thin black;
+    padding: 10px;
+    font-family: Roboto;
+}
+
+.center-text {
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+    align-content: center;
+}
+
+p{
+    font-size:18px;
+}
+
+.panel, .flip {
+    padding: 5px;
+}
+
+.flip {
+    text-align: center;
+    background-color: #e3e3e3;
+    border: solid 1px #e3e3e3;
+    border-radius: 5px;
+}
+
+.panel {
+    padding: 15px;
+    text-align: left;
+    display: none;
+    background-color: #fff;
+}
+
+.topbar {
+    position: fixed;
+    background: #322733;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    z-index: 1001;
+    line-height: 60px;
+}
+.topbar nav {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+    font-family: 'roboto condensed';
+    text-transform: uppercase;
+    display: block;
+    padding-left: 180px;
+    text-align: center;
+    word-spacing: -.2em;
+}
+#headshot {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:200px;
+}
